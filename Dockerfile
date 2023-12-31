@@ -15,6 +15,7 @@ RUN pip3 install --upgrade pip
 COPY src/ /ds_salaries/src
 COPY data/ /ds_salaries/data
 COPY models/ /ds_salaries/models
+COPY notebooks/ /ds_salaries/notebooks
 COPY ./requirements.txt /ds_salaries
 #COPY ./pyproject.toml /ds_salaries
 #COPY ./poetry.lock /ds_salaries
